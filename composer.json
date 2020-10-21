@@ -1,0 +1,23 @@
+{
+    "name": "wpml/core",
+    "description": "WPML Core Dependencies",
+    "license": "GPL-2.0-only",
+    "homepage": "https://git.onthegosystems.com/wpml/sitepress-multilingual-cms",
+    "type": "wordpress-plugin",
+      "config": {
+        "sort-packages": true,
+        "platform": {
+            "php": "5.6"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "php-stubs/wordpress-stubs": "^5.5"
+    },
+    "autoload": {
+        "classmap": [
+            "inc/"
+        ]
+    }
+}
