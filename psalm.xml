@@ -11,7 +11,7 @@
         <file name="sitepress.class.php" />
         <directory name="inc" />
     </projectFiles>
-    <stubs>
-        <file name="vendor/php-stubs/wordpress-stubs/wordpress-stubs.php"/>
-    </stubs>
+    <plugins>
+        <pluginClass class="PsalmWordPress\Plugin"/>
+    </plugins>
 </psalm>
